@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+/*styling the entire html document giving it a background and paddind, margin remomvde*/
+html{
+	background-color:black;
+	min-height: 100%
+	padding:0px;
+	margin:0px;
+	}
+/*ends*/
+/*main container given a width and height background color and margin*/
+.MainContainer{
+	width:1000px;
+	height:2000px;
+	background-color:white;
+	margin:auto;
+	}
+/*ends*/
+/*the navigation bar takes the entire width of the screen, logo, maenu, search bar styled and placed within*/	
+.NavigationBar{
+	width:100%;
+	height:240px;
+	}
+	
+.SchoolLogo{
+	width:180px;
+	height:231px;
+	background-image:url(../Images/Langa-Gallery_03.png);
+	float:left
+	
+	}
+	
+.Searchbar{
+	width:816px;
+	height:170px;
+	float:right;
+	}
+.Searchbar div{
+	float:left;
+	margin-top:50px;
+	}	
+	
+	
+.Slogan{
+	width:414px;
+	height:96px;
+	font-family:"Myriad Pro";
+	text-align:center;
+	}
+h1{
+	color:#1a199d;
+	}
+h2{
+	color:#7d0002;
+	border-bottom-color: black;
+	margin-top: 5px;
+	}			
+.SearchBox{
+	width:402px;
+	height:68px;
+	background-image:url(../Images/searchbox_06.png);
+	}	
+	
+.Menu{
+	width:816px;
+	height:60px;
+	background-image:url(../Images/menuBackground_05.png);
+	float:right;	
+	}
+
+.Menu ul{
+	font-size:35px;
+	list-style:none;
+	text-align:center;
+	}
+	
+.Menu ul li{
+	float: left;
+	margin:6px 52px 0px 10px;
+	}		
+
+.Menu ul li a{
+	text-decoration:none;
+	color:#7d0002;
+	}		
+/*ends*/
+/*main image container placed below navigation and the image placed within*/
+.LandingImage{
+	width:995px;
+	height:310px;
+	background-image:url(../Images/landBackground_09.png);
+	margin:0 6px;	
+	}
+	
+.dancers{
+	width:958px;
+	height:277px;
+	background-image:url(../Images/dancers_11.png);
+	margin:17px;
+	}
+/*ends*/
+/*the div that holds three coloumns, divs within in it placed next to each other given enough space and the image styled along with the paragraph and button*/	
+.Threecoloumndiv{
+	width:958px;
+	height:503px;
+	background-image: url(../Images/galleryBackground_15.png);
+	text-align:center;
+	margin:auto;
+	}
+.Threecoloumndiv div{
+	float:left;
+	margin-top:40px;
+	}
+	
+.colOne{
+	padding-left:30px
+	}
+
+.colTwo{
+	padding-left:30px
+	}	
+
+.colThree{
+	padding-left:20px
+	}
+	
+.Threecoloumndiv div img{
+	width:285px;
+	height:285px;
+	}	
+
+.Threecoloumndiv p{
+	border-top:1px solid;
+	width:160px;
+	}
+
+.btn{
+	width:117px;
+	height:46px;
+	position:relative;
+	right: -90px;
+	top: -15px;
+	}	
+/*ends*/
+/*page footer takes full screen width and content placed accordingly*/		
+.Footer{
+	width:100%;
+	height:58px;
+	background-image:url(../Images/footerBackground_19.png);
+	margin-top:33px;
+	text-align:left;
+	}					
+
+.Footer P{
+	float:right;
+	padding:2% 0;
+	}
+/*ends*/		
